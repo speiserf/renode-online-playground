@@ -1,0 +1,6 @@
+mach create
+
+machine LoadPlatformDescription @platforms/cpus/stm32f4.repl
+
+showAnalyzer sysbus.usart2
+start
