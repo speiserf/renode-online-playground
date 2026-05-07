@@ -1,0 +1,16 @@
+{
+  "name": "Renode Online Playground",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.python"
+      ]
+    }
+  },
+  "postCreateCommand": "chmod +x /workspace/start-renode.sh",
+  "remoteUser": "vscode"
+}
